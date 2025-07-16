@@ -220,7 +220,7 @@ public class MineSweeper extends JPanel implements ActionListener, MouseListener
 
     }
 
-    //Not my code
+    
     public void floodFill(int x, int y) {
         // Base conditions
         if (x < 0 || x >= boardWidth / tileSize || y < 0 || y >= boardHeight / tileSize) return; // Out of bounds
